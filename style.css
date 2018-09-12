@@ -1,0 +1,35 @@
+section.hidden {
+  display: none;
+}
+
+.main-content {
+  display: flex;
+  height: 360px;
+}
+
+.main-content-question {
+  flex: 1 1 300px;
+  background-color: rgb(160, 160, 160);
+  color: white;
+  padding: 1rem;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.main-content-question > ul {
+  margin: 0px;
+  padding-left: 20px;
+}
+
+.main-content-question > ul > li {
+  padding-bottom: 10px;
+}
+
+.main-content-answer {
+  flex: 1 1 600px;
+  background-color: antiquewhite;
+  color: rgb(49, 49, 49);
+  padding: 1rem;
+  font-size: 16px;
+}
+
